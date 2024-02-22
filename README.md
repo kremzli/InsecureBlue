@@ -1,6 +1,7 @@
 # InsecureBlue
 
 Unofficial [SecureBlue](https://github.com/secureblue/secureblue) kinoite-nvidia-laptop-userns with hardened malloc disabled and other preferences
+(Not really insecure)
 
 ## Installation
 
