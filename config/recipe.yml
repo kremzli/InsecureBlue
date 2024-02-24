@@ -18,7 +18,8 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos: - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    repos: 
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       - brave-browser
   
