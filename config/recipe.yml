@@ -19,13 +19,13 @@ modules:
 
   - type: rpm-ostree
     repos: 
-      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+     # - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
-      - brave-browser
+     # - brave-browser
     remove:
       - hardened_malloc
     optfix:
-      - Brave Browser
+     # - Brave Browser
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
