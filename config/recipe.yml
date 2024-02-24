@@ -22,9 +22,10 @@ modules:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       - brave-browser
-  
     remove:
       - hardened_malloc
+    optfix:
+      - Brave Browser
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
