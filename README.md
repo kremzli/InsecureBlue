@@ -1,6 +1,6 @@
 # InsecureBlue
 
-> **Notice**
+> **Notice:**
 > Official SecureBlue with hardened malloc should now function on older hardware. Use that instead.
 
 Unofficial [SecureBlue](https://github.com/secureblue/secureblue) kinoite-asus-nvidia-userns-hardened with hardened malloc disabled
